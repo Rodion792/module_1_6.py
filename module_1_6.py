@@ -10,7 +10,6 @@ print(my_dict)
 
 my_set = { 1, 2, 76, 76, 98, 98, 'Alex', 'Denis', 'Denis', True}
 print(my_set)
-my_set.add(100)
-my_set.add(73)
+my_set.add((100, 95, 73))
 my_set.discard('Alex')
 print(my_set)
